@@ -1,0 +1,53 @@
+.form {
+  width: 800px;
+  margin: 16px auto 16px auto;
+}
+
+.form__main-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form__main-info > * {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.form__main-info-label-input {
+  display: block;
+  margin: 8px 4px 8px 4px;
+
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.form__main-info-input {
+  width: 200px;
+  padding: 4px 8px 4px 8px;
+
+  font-size: 18px;
+}
+
+#inputInsert.form__main-info-input {
+  width: 256px;
+}
+
+#inputInsert.form__main-info-input:not(:focus) + .form__auto-complete-wrapper {
+  display: none;
+  opacity: 0;
+}
+
+#inputGrade.form__main-info-input {
+  width: 128px;
+}
+
+#inputQuantity.form__main-info-input {
+  width: 120px;
+}
+
+@media print {
+  .form {
+    display: none;
+  }
+}

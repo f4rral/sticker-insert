@@ -1,0 +1,30 @@
+.auto-complete {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+.auto-complete__list {
+  position: absolute;
+  width: 100%;
+  padding: 8px 0 8px 0;
+  margin: 8px 0 0 0;
+  list-style: none;
+
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.3);
+}
+
+.auto-complete__item {
+  padding: 4px 8px 4px 8px;
+
+  cursor: pointer;
+}
+
+.auto-complete__item b {
+  font-weight: 700;
+}
+
+.auto-complete__item:hover {
+  background-color: #c5c5c5;
+}

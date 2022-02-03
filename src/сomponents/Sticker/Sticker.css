@@ -1,0 +1,243 @@
+.sticker {
+  width: 126.1mm;
+  height: 25mm;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  margin-bottom: 96px;
+
+  color: #161a1d;
+
+  line-height: 0;
+
+  transform: scale(1.4) translateY(32px);
+
+  background-color: #edf2f4;
+  background-color: transparent;
+  border-collapse: collapse;
+
+  border-radius: 8px;
+  border-style: hidden;
+
+  box-shadow: 0px 0px 18px 6px rgba(34, 60, 80, 0.2);
+}
+
+.sticker td {
+  text-align: center;
+}
+
+.row-1 .col-1 {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.row-1 .col-14 {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.sticker, tr, td {
+  border: 1px solid transparent;
+}
+
+.sticker__title-front {
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 11px;
+}
+
+.sticker__title-side {
+  margin: 0;
+  font-size: 9px;
+  line-height: 9px;
+  font-weight: bold;
+
+  writing-mode: vertical-rl;
+}
+
+.sticker__quantity,
+.sticker__year {
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: bold;
+}
+
+.sticker__address {
+  font-size: 7px;
+  line-height: 7px;
+
+  writing-mode: vertical-rl;
+}
+
+.sticker__iso-title {
+  font-size: 7px;
+  line-height: 7px;
+  font-weight: bold;
+}
+
+.sticker__iso-value {
+  font-size: 7px;
+  line-height: 7px;
+  font-weight: bold;
+}
+
+.sticker__speed-title,
+.sticker__feed-title {
+  display: block;
+
+  font-size: 9px;
+  line-height: 8px;
+  font-weight: bold;
+}
+
+.sticker__speed-dim,
+.sticker__feed-dim {
+  display: block;
+  
+  font-size: 6px;
+  line-height: 5px;
+  font-weight: bold;
+}
+
+.sticker__speed-value,
+.sticker__feed-value {
+  font-size: 8px;
+  line-height: 0;
+  font-weight: bold;
+}
+
+.sticker__app {
+  position: relative;
+  top: -1px;
+  display: block;
+  height: 3mm;
+
+  font-size: 22px;
+  line-height: 3mm;
+}
+
+.sticker__app--p {
+  background-color: #0ebfe9;
+}
+
+.sticker__app--m {
+  background-color: #ffff00
+}
+
+.sticker__app--k {
+  background-color: #ff0000;
+}
+
+.sticker__app--n {
+  background-color: #b7dbb7;
+}
+
+.sticker__app--s {
+  background-color: #ffbf81;
+}
+
+.sticker__app--h {
+  background-color: #d0e2e2;
+}
+
+.sticker__app--o {
+  background-color: #ffffff;
+}
+
+.sticker__order-number {
+  font-size: 7px;
+  font-weight: bold;
+  line-height: 5px;
+}
+
+.col-1 {
+  width: 7.9mm;
+}
+
+.col-2 {
+  width: 12.2mm;
+}
+
+.col-3 {
+  width: 3.2mm;
+}
+
+.col-4 {
+  width: 6.4mm;
+}
+
+.col-5 {
+  width: 2.1mm;
+}
+
+.col-6 {
+  width: 6.8mm;
+}
+
+.col-7, .col-8, .col-9, .col-10, 
+.col-11, .col-12, .col-13 {
+  width: 10mm;
+}
+
+.col-14 {
+  width: 17.2mm;
+}
+
+.row-1 {
+  height: 3.6mm;
+}
+
+.row-2 {
+  height: 3.5mm;
+}
+
+.row-3 {
+  height: 3.5mm;
+}
+
+.row-4 {
+  height: 4mm;
+}
+
+.row-5 {
+  height: 4mm;
+}
+
+.row-6 {
+  height: 2.2mm;
+}
+
+.row-7 {
+  height: 1.6mm;
+}
+
+.row-8 {
+  height: 2.6mm;
+}
+
+.bg-c {
+  background-color: #ff3338;
+}
+
+@media print {
+  .sticker {
+    position: fixed;
+    top: 0;
+    left: -126.3mm;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    transform-origin: right top;
+    transform: rotate(270deg);
+
+    box-shadow: none;
+  }
+
+  .sticker * {
+    background-color: transparent;
+  }
+
+  .sticker__address {
+    display: none;
+  }
+}

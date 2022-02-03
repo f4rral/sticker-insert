@@ -1,0 +1,24 @@
+.form__cut-par {
+  display: table;
+  margin: 16px auto 16px auto ;
+  text-align: center;
+}
+
+.form__cut-par-row {
+  display: table-row;
+}
+
+.form__cut-par-row-head {
+  display: table-row;
+  font-weight: 600;
+}
+
+.form__cut-par-cell {
+  display: table-cell;
+  padding: 4px 8px;
+  vertical-align: middle;
+}
+
+.form__cut-par input {
+  width: 96px;
+}
